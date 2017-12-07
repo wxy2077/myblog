@@ -1,0 +1,1234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9844be95-eeac-4d44-949d-476ebdbee2f8" name="Default" comment="" />
+    <list id="8f7c5c03-8dab-4463-9df0-06042067783b" name="最基础的页面显示" comment="　　基本显示页面" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blogProject/blogProject/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1430">
+              <caret line="65" column="14" lean-forward="false" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blogProject/blogProject/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+              <folding>
+                <element signature="e#645#686#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blogProject/home/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+              <folding>
+                <element signature="e#645#677#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blogProject/home/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blogProject/templates/home/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="full-width.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blogProject/templates/home/full-width.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+              <folding>
+                <marker date="1512634105189" expanded="true" signature="43:75" ph="{% block head ... %}" />
+                <marker date="1512634105189" expanded="true" signature="77:5107" ph="{% block content ... %}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blogProject/templates/home/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="14" />
+              <folding>
+                <marker date="1512632664425" expanded="true" signature="27:59" ph="{% block head ... %}" />
+                <marker date="1512632664425" expanded="true" signature="62:10124" ph="{% block content ... %}" />
+                <marker date="1512632664425" expanded="true" signature="1591:1636" ph="                &lt;article class=&quot;post post-2... %}" />
+                <marker date="1512632664425" expanded="true" signature="1641:1690" ph="                    &lt;header class=&quot;entry-header... %}" />
+                <marker date="1512632664425" expanded="true" signature="1695:1743" ph="                        &lt;h1 class=&quot;entry-title... %}" />
+                <marker date="1512632664425" expanded="true" signature="1748:1823" ph="                            &lt;a href=&quot;../single.html&quot;&gt;Django 博客开发入门教程：前言&lt;/... %}" />
+                <marker date="1512632664425" expanded="true" signature="1828:1857" ph="                        &lt;/h... %}" />
+                <marker date="1512632664425" expanded="true" signature="1862:1910" ph="                        &lt;div class=&quot;entry-meta... %}" />
+                <marker date="1512632664425" expanded="true" signature="1915:2005" ph="                            &lt;span class=&quot;post-category&quot;&gt;&lt;a href=&quot;##&quot;&gt;Django 博客教程&lt;/a&gt;&lt;/spa... %}" />
+                <marker date="1512632664425" expanded="true" signature="2010:2098" ph="                            &lt;span class=&quot;post-date&quot;&gt;&lt;a href=&quot;##&quot;&gt;&lt;time class=&quot;entry-dat... %}" />
+                <marker date="1512632664425" expanded="true" signature="2103:2238" ph="                                                                      datetime=&quot;2012-11-09T23:15:57+00:00&quot;&gt;2017年... %}" />
+                <marker date="1512632664425" expanded="true" signature="2243:2324" ph="                            &lt;span class=&quot;post-author&quot;&gt;&lt;a href=&quot;##&quot;&gt;追梦人物&lt;/a&gt;&lt;/spa... %}" />
+                <marker date="1512632664425" expanded="true" signature="2329:2412" ph="                            &lt;span class=&quot;comments-link&quot;&gt;&lt;a href=&quot;##&quot;&gt;4 评论&lt;/a&gt;&lt;/spa... %}" />
+                <marker date="1512632664425" expanded="true" signature="2417:2500" ph="                            &lt;span class=&quot;views-count&quot;&gt;&lt;a href=&quot;##&quot;&gt;588 阅读&lt;/a&gt;&lt;/spa... %}" />
+                <marker date="1512632664425" expanded="true" signature="2505:2535" ph="                        &lt;/di... %}" />
+                <marker date="1512632664425" expanded="true" signature="2540:2569" ph="                    &lt;/heade... %}" />
+                <marker date="1512632664425" expanded="true" signature="2574:2630" ph="                    &lt;div class=&quot;entry-content clearfix... %}" />
+                <marker date="1512632664425" expanded="true" signature="2635:2748" ph="                        &lt;p&gt;免费、中文、零基础，完整的项目，基于最新版 Django 1.10 和 Python 3.5。带你从零开始一步步开发属于自己的博客网站，帮助你以最快的速度掌握 Djang... %}" />
+                <marker date="1512632664425" expanded="true" signature="2753:2793" ph="                            开发的技巧...&lt;/... %}" />
+                <marker date="1512632664425" expanded="true" signature="2798:2858" ph="                        &lt;div class=&quot;read-more cl-effect-14... %}" />
+                <marker date="1512632664425" expanded="true" signature="2863:2961" ph="                            &lt;a href=&quot;##&quot; class=&quot;more-link&quot;&gt;继续阅读 &lt;span class=&quot;meta-nav&quot;&gt;→&lt;/span&gt;&lt;/... %}" />
+                <marker date="1512632664425" expanded="true" signature="2966:2996" ph="                        &lt;/di... %}" />
+                <marker date="1512632664425" expanded="true" signature="3001:3027" ph="                    &lt;/di... %}" />
+                <marker date="1512632664425" expanded="true" signature="3032:3058" ph="                &lt;/articl... %}" />
+                <marker date="1512632664425" expanded="true" signature="3068:3113" ph="                &lt;article class=&quot;post post-3... %}" />
+                <marker date="1512632664425" expanded="true" signature="3118:3167" ph="                    &lt;header class=&quot;entry-header... %}" />
+                <marker date="1512632664425" expanded="true" signature="3172:3220" ph="                        &lt;h1 class=&quot;entry-title... %}" />
+                <marker date="1512632664425" expanded="true" signature="3225:3300" ph="                            &lt;a href=&quot;../single.html&quot;&gt;Django 博客开发入门教程：前言&lt;/... %}" />
+                <marker date="1512632664425" expanded="true" signature="3305:3334" ph="                        &lt;/h... %}" />
+                <marker date="1512632664425" expanded="true" signature="3339:3387" ph="                        &lt;div class=&quot;entry-meta... %}" />
+                <marker date="1512632664425" expanded="true" signature="3392:3482" ph="                            &lt;span class=&quot;post-category&quot;&gt;&lt;a href=&quot;##&quot;&gt;Django 博客教程&lt;/a&gt;&lt;/spa... %}" />
+                <marker date="1512632664425" expanded="true" signature="3487:3575" ph="                            &lt;span class=&quot;post-date&quot;&gt;&lt;a href=&quot;##&quot;&gt;&lt;time class=&quot;entry-dat... %}" />
+                <marker date="1512632664425" expanded="true" signature="3580:3715" ph="                                                                      datetime=&quot;2012-11-09T23:15:57+00:00&quot;&gt;2017年... %}" />
+                <marker date="1512632664425" expanded="true" signature="3720:3801" ph="                            &lt;span class=&quot;post-author&quot;&gt;&lt;a href=&quot;##&quot;&gt;追梦人物&lt;/a&gt;&lt;/spa... %}" />
+                <marker date="1512632664425" expanded="true" signature="3806:3889" ph="                            &lt;span class=&quot;comments-link&quot;&gt;&lt;a href=&quot;##&quot;&gt;4 评论&lt;/a&gt;&lt;/spa... %}" />
+                <marker date="1512632664425" expanded="true" signature="3894:3977" ph="                            &lt;span class=&quot;views-count&quot;&gt;&lt;a href=&quot;##&quot;&gt;588 阅读&lt;/a&gt;&lt;/spa... %}" />
+                <marker date="1512632664425" expanded="true" signature="3982:4012" ph="                        &lt;/di... %}" />
+                <marker date="1512632664425" expanded="true" signature="4017:4046" ph="                    &lt;/heade... %}" />
+                <marker date="1512632664425" expanded="true" signature="4051:4107" ph="                    &lt;div class=&quot;entry-content clearfix... %}" />
+                <marker date="1512632664425" expanded="true" signature="4112:4225" ph="                        &lt;p&gt;免费、中文、零基础，完整的项目，基于最新版 Django 1.10 和 Python 3.5。带你从零开始一步步开发属于自己的博客网站，帮助你以最快的速度掌握 Djang... %}" />
+                <marker date="1512632664425" expanded="true" signature="4230:4270" ph="                            开发的技巧...&lt;/... %}" />
+                <marker date="1512632664425" expanded="true" signature="4275:4335" ph="                        &lt;div class=&quot;read-more cl-effect-14... %}" />
+                <marker date="1512632664425" expanded="true" signature="4340:4438" ph="                            &lt;a href=&quot;##&quot; class=&quot;more-link&quot;&gt;继续阅读 &lt;span class=&quot;meta-nav&quot;&gt;→&lt;/span&gt;&lt;/... %}" />
+                <marker date="1512632664425" expanded="true" signature="4443:4473" ph="                        &lt;/di... %}" />
+                <marker date="1512632664425" expanded="true" signature="4478:4504" ph="                    &lt;/di... %}" />
+                <marker date="1512632664425" expanded="true" signature="4509:4535" ph="                &lt;/articl... %}" />
+                <marker date="1512632664425" expanded="true" signature="4545:4590" ph="                &lt;article class=&quot;post post-4... %}" />
+                <marker date="1512632664425" expanded="true" signature="4595:4644" ph="                    &lt;header class=&quot;entry-header... %}" />
+                <marker date="1512632664425" expanded="true" signature="4649:4697" ph="                        &lt;h1 class=&quot;entry-title... %}" />
+                <marker date="1512632664425" expanded="true" signature="4702:4777" ph="                            &lt;a href=&quot;../single.html&quot;&gt;Django 博客开发入门教程：前言&lt;/... %}" />
+                <marker date="1512632664425" expanded="true" signature="4782:4811" ph="                        &lt;/h... %}" />
+                <marker date="1512632664425" expanded="true" signature="4816:4864" ph="                        &lt;div class=&quot;entry-meta... %}" />
+                <marker date="1512632664425" expanded="true" signature="4869:4959" ph="                            &lt;span class=&quot;post-category&quot;&gt;&lt;a href=&quot;##&quot;&gt;Django 博客教程&lt;/a&gt;&lt;/spa... %}" />
+                <marker date="1512632664425" expanded="true" signature="4964:5052" ph="                            &lt;span class=&quot;post-date&quot;&gt;&lt;a href=&quot;##&quot;&gt;&lt;time class=&quot;entry-dat... %}" />
+                <marker date="1512632664425" expanded="true" signature="5057:5192" ph="                                                                      datetime=&quot;2012-11-09T23:15:57+00:00&quot;&gt;2017年... %}" />
+                <marker date="1512632664425" expanded="true" signature="5197:5278" ph="                            &lt;span class=&quot;post-author&quot;&gt;&lt;a href=&quot;##&quot;&gt;追梦人物&lt;/a&gt;&lt;/spa... %}" />
+                <marker date="1512632664425" expanded="true" signature="5283:5366" ph="                            &lt;span class=&quot;comments-link&quot;&gt;&lt;a href=&quot;##&quot;&gt;4 评论&lt;/a&gt;&lt;/spa... %}" />
+                <marker date="1512632664425" expanded="true" signature="5371:5454" ph="                            &lt;span class=&quot;views-count&quot;&gt;&lt;a href=&quot;##&quot;&gt;588 阅读&lt;/a&gt;&lt;/spa... %}" />
+                <marker date="1512632664425" expanded="true" signature="5459:5489" ph="                        &lt;/di... %}" />
+                <marker date="1512632664425" expanded="true" signature="5494:5523" ph="                    &lt;/heade... %}" />
+                <marker date="1512632664425" expanded="true" signature="5528:5584" ph="                    &lt;div class=&quot;entry-content clearfix... %}" />
+                <marker date="1512632664425" expanded="true" signature="5589:5702" ph="                        &lt;p&gt;免费、中文、零基础，完整的项目，基于最新版 Django 1.10 和 Python 3.5。带你从零开始一步步开发属于自己的博客网站，帮助你以最快的速度掌握 Djang... %}" />
+                <marker date="1512632664425" expanded="true" signature="5707:5747" ph="                            开发的技巧...&lt;/... %}" />
+                <marker date="1512632664425" expanded="true" signature="5752:5812" ph="                        &lt;div class=&quot;read-more cl-effect-14... %}" />
+                <marker date="1512632664425" expanded="true" signature="5817:5915" ph="                            &lt;a href=&quot;##&quot; class=&quot;more-link&quot;&gt;继续阅读 &lt;span class=&quot;meta-nav&quot;&gt;→&lt;/span&gt;&lt;/... %}" />
+                <marker date="1512632664425" expanded="true" signature="5920:5950" ph="                        &lt;/di... %}" />
+                <marker date="1512632664425" expanded="true" signature="5955:5981" ph="                    &lt;/di... %}" />
+                <marker date="1512632664425" expanded="true" signature="5986:6012" ph="                &lt;/articl... %}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blogProject/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="968">
+              <caret line="44" column="64" lean-forward="false" selection-start-line="44" selection-start-column="64" selection-end-line="44" selection-end-column="64" />
+              <folding>
+                <marker date="1512633789906" expanded="true" signature="719:777" ph="{% block head ... %}" />
+                <marker date="1512633789906" expanded="true" signature="746:756" ph=" 头部不一样的部分 ... %}" />
+                <marker date="1512633789906" expanded="true" signature="2786:2825" ph="{% block content ... %}" />
+                <marker date="1512633789906" expanded="true" signature="3322:3359" ph="&lt;div class=&quot;overlay overlay-hugeinc... %}" />
+                <marker date="1512633789906" expanded="true" signature="3364:3462" ph="    &lt;button type=&quot;button&quot; class=&quot;overlay-close&quot;&gt;&lt;span class=&quot;ion-ios-close-empty&quot;&gt;&lt;/span&gt;&lt;/butto... %}" />
+                <marker date="1512633789906" expanded="true" signature="3467:3476" ph="..." />
+                <marker date="1512633789906" expanded="true" signature="3481:3493" ph="        &lt;u... %}" />
+                <marker date="1512633789906" expanded="true" signature="3498:3547" ph="            &lt;li&gt;&lt;a href=&quot;/home/index&quot;&gt;首页&lt;/a&gt;&lt;/l... %}" />
+                <marker date="1512633789906" expanded="true" signature="3552:3608" ph="            &lt;li&gt;&lt;a href=&quot;../full-width.html&quot;&gt;博客&lt;/a&gt;&lt;/l... %}" />
+                <marker date="1512633789906" expanded="true" signature="3613:3664" ph="            &lt;li&gt;&lt;a href=&quot;../about.html&quot;&gt;关于&lt;/a&gt;&lt;/l... %}" />
+                <marker date="1512633789906" expanded="true" signature="3669:3722" ph="            &lt;li&gt;&lt;a href=&quot;../contact.html&quot;&gt;联系&lt;/a&gt;&lt;/l... %}" />
+                <marker date="1512633789906" expanded="true" signature="3727:3740" ph="        &lt;/u... %}" />
+                <marker date="1512633789906" expanded="true" signature="3745:3755" ph="    &lt;/nav&gt;... %}" />
+                <marker date="1512633789906" expanded="true" signature="3760:3766" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>img-responsive</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="wg" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <push-targets>
+      <push-target-info repo="$PROJECT_DIR$" source="master" target-remote="origin" target-branch="div" />
+    </push-targets>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/blogProject/blogProject/__init__.py" />
+        <option value="$PROJECT_DIR$/blogProject/blogProject/settings.py" />
+        <option value="$PROJECT_DIR$/blogProject/blogProject/urls.py" />
+        <option value="$PROJECT_DIR$/blogProject/templates/home/index.html" />
+        <option value="$PROJECT_DIR$/blogProject/templates/home/about.html" />
+        <option value="$PROJECT_DIR$/blogProject/templates/base.html" />
+        <option value="$PROJECT_DIR$/blogProject/templates/home/full-width.html" />
+        <option value="$PROJECT_DIR$/blogProject/home/urls.py" />
+        <option value="$PROJECT_DIR$/blogProject/home/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1855" />
+    <option name="height" value="1176" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blogProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blogProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/blogProject/templates/home" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/blogProject/home" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="myblog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="myblog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="myblog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="myblog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="myblog" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="myblog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="myblog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="myblog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="myblog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="myblog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9844be95-eeac-4d44-949d-476ebdbee2f8" name="Default" comment="" />
+      <changelist id="8f7c5c03-8dab-4463-9df0-06042067783b" name="最基础的页面显示" comment="显示页面" />
+      <created>1512570364372</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1512570364372</updated>
+    </task>
+    <task id="LOCAL-00001" summary="　　基本显示页面">
+      <created>1512635198311</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1512635198311</updated>
+    </task>
+    <task id="LOCAL-00002" summary="最基础的页面显示">
+      <created>1512635257181</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1512635257181</updated>
+    </task>
+    <task id="LOCAL-00003" summary="最基础的页面显示">
+      <created>1512637660079</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1512637660079</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="24" width="1855" height="1176" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14285715" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953784" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5971686" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3963964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37451738" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25653046" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
+    <MESSAGE value="　　基本显示页面" />
+    <MESSAGE value="最基础的页面显示" />
+    <option name="LAST_COMMIT_MESSAGE" value="最基础的页面显示" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/blogProject/blogProject/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1430">
+          <caret line="65" column="14" lean-forward="false" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/blogProject/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding>
+            <element signature="e#645#686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/home/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="e#645#677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/home/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/templates/home/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/templates/home/full-width.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding>
+            <marker date="1512634105189" expanded="true" signature="43:75" ph="{% block head ... %}" />
+            <marker date="1512634105189" expanded="true" signature="77:5107" ph="{% block content ... %}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/templates/home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="14" />
+          <folding>
+            <marker date="1512632664425" expanded="true" signature="27:59" ph="{% block head ... %}" />
+            <marker date="1512632664425" expanded="true" signature="62:10124" ph="{% block content ... %}" />
+            <marker date="1512632664425" expanded="true" signature="1591:1636" ph="                &lt;article class=&quot;post post-2... %}" />
+            <marker date="1512632664425" expanded="true" signature="1641:1690" ph="                    &lt;header class=&quot;entry-header... %}" />
+            <marker date="1512632664425" expanded="true" signature="1695:1743" ph="                        &lt;h1 class=&quot;entry-title... %}" />
+            <marker date="1512632664425" expanded="true" signature="1748:1823" ph="                            &lt;a href=&quot;../single.html&quot;&gt;Django 博客开发入门教程：前言&lt;/... %}" />
+            <marker date="1512632664425" expanded="true" signature="1828:1857" ph="                        &lt;/h... %}" />
+            <marker date="1512632664425" expanded="true" signature="1862:1910" ph="                        &lt;div class=&quot;entry-meta... %}" />
+            <marker date="1512632664425" expanded="true" signature="1915:2005" ph="                            &lt;span class=&quot;post-category&quot;&gt;&lt;a href=&quot;##&quot;&gt;Django 博客教程&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="2010:2098" ph="                            &lt;span class=&quot;post-date&quot;&gt;&lt;a href=&quot;##&quot;&gt;&lt;time class=&quot;entry-dat... %}" />
+            <marker date="1512632664425" expanded="true" signature="2103:2238" ph="                                                                      datetime=&quot;2012-11-09T23:15:57+00:00&quot;&gt;2017年... %}" />
+            <marker date="1512632664425" expanded="true" signature="2243:2324" ph="                            &lt;span class=&quot;post-author&quot;&gt;&lt;a href=&quot;##&quot;&gt;追梦人物&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="2329:2412" ph="                            &lt;span class=&quot;comments-link&quot;&gt;&lt;a href=&quot;##&quot;&gt;4 评论&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="2417:2500" ph="                            &lt;span class=&quot;views-count&quot;&gt;&lt;a href=&quot;##&quot;&gt;588 阅读&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="2505:2535" ph="                        &lt;/di... %}" />
+            <marker date="1512632664425" expanded="true" signature="2540:2569" ph="                    &lt;/heade... %}" />
+            <marker date="1512632664425" expanded="true" signature="2574:2630" ph="                    &lt;div class=&quot;entry-content clearfix... %}" />
+            <marker date="1512632664425" expanded="true" signature="2635:2748" ph="                        &lt;p&gt;免费、中文、零基础，完整的项目，基于最新版 Django 1.10 和 Python 3.5。带你从零开始一步步开发属于自己的博客网站，帮助你以最快的速度掌握 Djang... %}" />
+            <marker date="1512632664425" expanded="true" signature="2753:2793" ph="                            开发的技巧...&lt;/... %}" />
+            <marker date="1512632664425" expanded="true" signature="2798:2858" ph="                        &lt;div class=&quot;read-more cl-effect-14... %}" />
+            <marker date="1512632664425" expanded="true" signature="2863:2961" ph="                            &lt;a href=&quot;##&quot; class=&quot;more-link&quot;&gt;继续阅读 &lt;span class=&quot;meta-nav&quot;&gt;→&lt;/span&gt;&lt;/... %}" />
+            <marker date="1512632664425" expanded="true" signature="2966:2996" ph="                        &lt;/di... %}" />
+            <marker date="1512632664425" expanded="true" signature="3001:3027" ph="                    &lt;/di... %}" />
+            <marker date="1512632664425" expanded="true" signature="3032:3058" ph="                &lt;/articl... %}" />
+            <marker date="1512632664425" expanded="true" signature="3068:3113" ph="                &lt;article class=&quot;post post-3... %}" />
+            <marker date="1512632664425" expanded="true" signature="3118:3167" ph="                    &lt;header class=&quot;entry-header... %}" />
+            <marker date="1512632664425" expanded="true" signature="3172:3220" ph="                        &lt;h1 class=&quot;entry-title... %}" />
+            <marker date="1512632664425" expanded="true" signature="3225:3300" ph="                            &lt;a href=&quot;../single.html&quot;&gt;Django 博客开发入门教程：前言&lt;/... %}" />
+            <marker date="1512632664425" expanded="true" signature="3305:3334" ph="                        &lt;/h... %}" />
+            <marker date="1512632664425" expanded="true" signature="3339:3387" ph="                        &lt;div class=&quot;entry-meta... %}" />
+            <marker date="1512632664425" expanded="true" signature="3392:3482" ph="                            &lt;span class=&quot;post-category&quot;&gt;&lt;a href=&quot;##&quot;&gt;Django 博客教程&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="3487:3575" ph="                            &lt;span class=&quot;post-date&quot;&gt;&lt;a href=&quot;##&quot;&gt;&lt;time class=&quot;entry-dat... %}" />
+            <marker date="1512632664425" expanded="true" signature="3580:3715" ph="                                                                      datetime=&quot;2012-11-09T23:15:57+00:00&quot;&gt;2017年... %}" />
+            <marker date="1512632664425" expanded="true" signature="3720:3801" ph="                            &lt;span class=&quot;post-author&quot;&gt;&lt;a href=&quot;##&quot;&gt;追梦人物&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="3806:3889" ph="                            &lt;span class=&quot;comments-link&quot;&gt;&lt;a href=&quot;##&quot;&gt;4 评论&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="3894:3977" ph="                            &lt;span class=&quot;views-count&quot;&gt;&lt;a href=&quot;##&quot;&gt;588 阅读&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="3982:4012" ph="                        &lt;/di... %}" />
+            <marker date="1512632664425" expanded="true" signature="4017:4046" ph="                    &lt;/heade... %}" />
+            <marker date="1512632664425" expanded="true" signature="4051:4107" ph="                    &lt;div class=&quot;entry-content clearfix... %}" />
+            <marker date="1512632664425" expanded="true" signature="4112:4225" ph="                        &lt;p&gt;免费、中文、零基础，完整的项目，基于最新版 Django 1.10 和 Python 3.5。带你从零开始一步步开发属于自己的博客网站，帮助你以最快的速度掌握 Djang... %}" />
+            <marker date="1512632664425" expanded="true" signature="4230:4270" ph="                            开发的技巧...&lt;/... %}" />
+            <marker date="1512632664425" expanded="true" signature="4275:4335" ph="                        &lt;div class=&quot;read-more cl-effect-14... %}" />
+            <marker date="1512632664425" expanded="true" signature="4340:4438" ph="                            &lt;a href=&quot;##&quot; class=&quot;more-link&quot;&gt;继续阅读 &lt;span class=&quot;meta-nav&quot;&gt;→&lt;/span&gt;&lt;/... %}" />
+            <marker date="1512632664425" expanded="true" signature="4443:4473" ph="                        &lt;/di... %}" />
+            <marker date="1512632664425" expanded="true" signature="4478:4504" ph="                    &lt;/di... %}" />
+            <marker date="1512632664425" expanded="true" signature="4509:4535" ph="                &lt;/articl... %}" />
+            <marker date="1512632664425" expanded="true" signature="4545:4590" ph="                &lt;article class=&quot;post post-4... %}" />
+            <marker date="1512632664425" expanded="true" signature="4595:4644" ph="                    &lt;header class=&quot;entry-header... %}" />
+            <marker date="1512632664425" expanded="true" signature="4649:4697" ph="                        &lt;h1 class=&quot;entry-title... %}" />
+            <marker date="1512632664425" expanded="true" signature="4702:4777" ph="                            &lt;a href=&quot;../single.html&quot;&gt;Django 博客开发入门教程：前言&lt;/... %}" />
+            <marker date="1512632664425" expanded="true" signature="4782:4811" ph="                        &lt;/h... %}" />
+            <marker date="1512632664425" expanded="true" signature="4816:4864" ph="                        &lt;div class=&quot;entry-meta... %}" />
+            <marker date="1512632664425" expanded="true" signature="4869:4959" ph="                            &lt;span class=&quot;post-category&quot;&gt;&lt;a href=&quot;##&quot;&gt;Django 博客教程&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="4964:5052" ph="                            &lt;span class=&quot;post-date&quot;&gt;&lt;a href=&quot;##&quot;&gt;&lt;time class=&quot;entry-dat... %}" />
+            <marker date="1512632664425" expanded="true" signature="5057:5192" ph="                                                                      datetime=&quot;2012-11-09T23:15:57+00:00&quot;&gt;2017年... %}" />
+            <marker date="1512632664425" expanded="true" signature="5197:5278" ph="                            &lt;span class=&quot;post-author&quot;&gt;&lt;a href=&quot;##&quot;&gt;追梦人物&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="5283:5366" ph="                            &lt;span class=&quot;comments-link&quot;&gt;&lt;a href=&quot;##&quot;&gt;4 评论&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="5371:5454" ph="                            &lt;span class=&quot;views-count&quot;&gt;&lt;a href=&quot;##&quot;&gt;588 阅读&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="5459:5489" ph="                        &lt;/di... %}" />
+            <marker date="1512632664425" expanded="true" signature="5494:5523" ph="                    &lt;/heade... %}" />
+            <marker date="1512632664425" expanded="true" signature="5528:5584" ph="                    &lt;div class=&quot;entry-content clearfix... %}" />
+            <marker date="1512632664425" expanded="true" signature="5589:5702" ph="                        &lt;p&gt;免费、中文、零基础，完整的项目，基于最新版 Django 1.10 和 Python 3.5。带你从零开始一步步开发属于自己的博客网站，帮助你以最快的速度掌握 Djang... %}" />
+            <marker date="1512632664425" expanded="true" signature="5707:5747" ph="                            开发的技巧...&lt;/... %}" />
+            <marker date="1512632664425" expanded="true" signature="5752:5812" ph="                        &lt;div class=&quot;read-more cl-effect-14... %}" />
+            <marker date="1512632664425" expanded="true" signature="5817:5915" ph="                            &lt;a href=&quot;##&quot; class=&quot;more-link&quot;&gt;继续阅读 &lt;span class=&quot;meta-nav&quot;&gt;→&lt;/span&gt;&lt;/... %}" />
+            <marker date="1512632664425" expanded="true" signature="5920:5950" ph="                        &lt;/di... %}" />
+            <marker date="1512632664425" expanded="true" signature="5955:5981" ph="                    &lt;/di... %}" />
+            <marker date="1512632664425" expanded="true" signature="5986:6012" ph="                &lt;/articl... %}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="44" column="64" lean-forward="false" selection-start-line="44" selection-start-column="64" selection-end-line="44" selection-end-column="64" />
+          <folding>
+            <marker date="1512633789906" expanded="true" signature="719:777" ph="{% block head ... %}" />
+            <marker date="1512633789906" expanded="true" signature="746:756" ph=" 头部不一样的部分 ... %}" />
+            <marker date="1512633789906" expanded="true" signature="2786:2825" ph="{% block content ... %}" />
+            <marker date="1512633789906" expanded="true" signature="3322:3359" ph="&lt;div class=&quot;overlay overlay-hugeinc... %}" />
+            <marker date="1512633789906" expanded="true" signature="3364:3462" ph="    &lt;button type=&quot;button&quot; class=&quot;overlay-close&quot;&gt;&lt;span class=&quot;ion-ios-close-empty&quot;&gt;&lt;/span&gt;&lt;/butto... %}" />
+            <marker date="1512633789906" expanded="true" signature="3467:3476" ph="..." />
+            <marker date="1512633789906" expanded="true" signature="3481:3493" ph="        &lt;u... %}" />
+            <marker date="1512633789906" expanded="true" signature="3498:3547" ph="            &lt;li&gt;&lt;a href=&quot;/home/index&quot;&gt;首页&lt;/a&gt;&lt;/l... %}" />
+            <marker date="1512633789906" expanded="true" signature="3552:3608" ph="            &lt;li&gt;&lt;a href=&quot;../full-width.html&quot;&gt;博客&lt;/a&gt;&lt;/l... %}" />
+            <marker date="1512633789906" expanded="true" signature="3613:3664" ph="            &lt;li&gt;&lt;a href=&quot;../about.html&quot;&gt;关于&lt;/a&gt;&lt;/l... %}" />
+            <marker date="1512633789906" expanded="true" signature="3669:3722" ph="            &lt;li&gt;&lt;a href=&quot;../contact.html&quot;&gt;联系&lt;/a&gt;&lt;/l... %}" />
+            <marker date="1512633789906" expanded="true" signature="3727:3740" ph="        &lt;/u... %}" />
+            <marker date="1512633789906" expanded="true" signature="3745:3755" ph="    &lt;/nav&gt;... %}" />
+            <marker date="1512633789906" expanded="true" signature="3760:3766" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/blogProject/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1430">
+          <caret line="65" column="14" lean-forward="true" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/blogProject/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding>
+            <element signature="e#645#686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/home/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="e#645#677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/home/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/templates/home/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/templates/home/full-width.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding>
+            <marker date="1512634105189" expanded="true" signature="43:75" ph="{% block head ... %}" />
+            <marker date="1512634105189" expanded="true" signature="77:5107" ph="{% block content ... %}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/templates/home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="14" />
+          <folding>
+            <marker date="1512632664425" expanded="true" signature="27:59" ph="{% block head ... %}" />
+            <marker date="1512632664425" expanded="true" signature="62:10124" ph="{% block content ... %}" />
+            <marker date="1512632664425" expanded="true" signature="1591:1636" ph="                &lt;article class=&quot;post post-2... %}" />
+            <marker date="1512632664425" expanded="true" signature="1641:1690" ph="                    &lt;header class=&quot;entry-header... %}" />
+            <marker date="1512632664425" expanded="true" signature="1695:1743" ph="                        &lt;h1 class=&quot;entry-title... %}" />
+            <marker date="1512632664425" expanded="true" signature="1748:1823" ph="                            &lt;a href=&quot;../single.html&quot;&gt;Django 博客开发入门教程：前言&lt;/... %}" />
+            <marker date="1512632664425" expanded="true" signature="1828:1857" ph="                        &lt;/h... %}" />
+            <marker date="1512632664425" expanded="true" signature="1862:1910" ph="                        &lt;div class=&quot;entry-meta... %}" />
+            <marker date="1512632664425" expanded="true" signature="1915:2005" ph="                            &lt;span class=&quot;post-category&quot;&gt;&lt;a href=&quot;##&quot;&gt;Django 博客教程&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="2010:2098" ph="                            &lt;span class=&quot;post-date&quot;&gt;&lt;a href=&quot;##&quot;&gt;&lt;time class=&quot;entry-dat... %}" />
+            <marker date="1512632664425" expanded="true" signature="2103:2238" ph="                                                                      datetime=&quot;2012-11-09T23:15:57+00:00&quot;&gt;2017年... %}" />
+            <marker date="1512632664425" expanded="true" signature="2243:2324" ph="                            &lt;span class=&quot;post-author&quot;&gt;&lt;a href=&quot;##&quot;&gt;追梦人物&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="2329:2412" ph="                            &lt;span class=&quot;comments-link&quot;&gt;&lt;a href=&quot;##&quot;&gt;4 评论&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="2417:2500" ph="                            &lt;span class=&quot;views-count&quot;&gt;&lt;a href=&quot;##&quot;&gt;588 阅读&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="2505:2535" ph="                        &lt;/di... %}" />
+            <marker date="1512632664425" expanded="true" signature="2540:2569" ph="                    &lt;/heade... %}" />
+            <marker date="1512632664425" expanded="true" signature="2574:2630" ph="                    &lt;div class=&quot;entry-content clearfix... %}" />
+            <marker date="1512632664425" expanded="true" signature="2635:2748" ph="                        &lt;p&gt;免费、中文、零基础，完整的项目，基于最新版 Django 1.10 和 Python 3.5。带你从零开始一步步开发属于自己的博客网站，帮助你以最快的速度掌握 Djang... %}" />
+            <marker date="1512632664425" expanded="true" signature="2753:2793" ph="                            开发的技巧...&lt;/... %}" />
+            <marker date="1512632664425" expanded="true" signature="2798:2858" ph="                        &lt;div class=&quot;read-more cl-effect-14... %}" />
+            <marker date="1512632664425" expanded="true" signature="2863:2961" ph="                            &lt;a href=&quot;##&quot; class=&quot;more-link&quot;&gt;继续阅读 &lt;span class=&quot;meta-nav&quot;&gt;→&lt;/span&gt;&lt;/... %}" />
+            <marker date="1512632664425" expanded="true" signature="2966:2996" ph="                        &lt;/di... %}" />
+            <marker date="1512632664425" expanded="true" signature="3001:3027" ph="                    &lt;/di... %}" />
+            <marker date="1512632664425" expanded="true" signature="3032:3058" ph="                &lt;/articl... %}" />
+            <marker date="1512632664425" expanded="true" signature="3068:3113" ph="                &lt;article class=&quot;post post-3... %}" />
+            <marker date="1512632664425" expanded="true" signature="3118:3167" ph="                    &lt;header class=&quot;entry-header... %}" />
+            <marker date="1512632664425" expanded="true" signature="3172:3220" ph="                        &lt;h1 class=&quot;entry-title... %}" />
+            <marker date="1512632664425" expanded="true" signature="3225:3300" ph="                            &lt;a href=&quot;../single.html&quot;&gt;Django 博客开发入门教程：前言&lt;/... %}" />
+            <marker date="1512632664425" expanded="true" signature="3305:3334" ph="                        &lt;/h... %}" />
+            <marker date="1512632664425" expanded="true" signature="3339:3387" ph="                        &lt;div class=&quot;entry-meta... %}" />
+            <marker date="1512632664425" expanded="true" signature="3392:3482" ph="                            &lt;span class=&quot;post-category&quot;&gt;&lt;a href=&quot;##&quot;&gt;Django 博客教程&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="3487:3575" ph="                            &lt;span class=&quot;post-date&quot;&gt;&lt;a href=&quot;##&quot;&gt;&lt;time class=&quot;entry-dat... %}" />
+            <marker date="1512632664425" expanded="true" signature="3580:3715" ph="                                                                      datetime=&quot;2012-11-09T23:15:57+00:00&quot;&gt;2017年... %}" />
+            <marker date="1512632664425" expanded="true" signature="3720:3801" ph="                            &lt;span class=&quot;post-author&quot;&gt;&lt;a href=&quot;##&quot;&gt;追梦人物&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="3806:3889" ph="                            &lt;span class=&quot;comments-link&quot;&gt;&lt;a href=&quot;##&quot;&gt;4 评论&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="3894:3977" ph="                            &lt;span class=&quot;views-count&quot;&gt;&lt;a href=&quot;##&quot;&gt;588 阅读&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="3982:4012" ph="                        &lt;/di... %}" />
+            <marker date="1512632664425" expanded="true" signature="4017:4046" ph="                    &lt;/heade... %}" />
+            <marker date="1512632664425" expanded="true" signature="4051:4107" ph="                    &lt;div class=&quot;entry-content clearfix... %}" />
+            <marker date="1512632664425" expanded="true" signature="4112:4225" ph="                        &lt;p&gt;免费、中文、零基础，完整的项目，基于最新版 Django 1.10 和 Python 3.5。带你从零开始一步步开发属于自己的博客网站，帮助你以最快的速度掌握 Djang... %}" />
+            <marker date="1512632664425" expanded="true" signature="4230:4270" ph="                            开发的技巧...&lt;/... %}" />
+            <marker date="1512632664425" expanded="true" signature="4275:4335" ph="                        &lt;div class=&quot;read-more cl-effect-14... %}" />
+            <marker date="1512632664425" expanded="true" signature="4340:4438" ph="                            &lt;a href=&quot;##&quot; class=&quot;more-link&quot;&gt;继续阅读 &lt;span class=&quot;meta-nav&quot;&gt;→&lt;/span&gt;&lt;/... %}" />
+            <marker date="1512632664425" expanded="true" signature="4443:4473" ph="                        &lt;/di... %}" />
+            <marker date="1512632664425" expanded="true" signature="4478:4504" ph="                    &lt;/di... %}" />
+            <marker date="1512632664425" expanded="true" signature="4509:4535" ph="                &lt;/articl... %}" />
+            <marker date="1512632664425" expanded="true" signature="4545:4590" ph="                &lt;article class=&quot;post post-4... %}" />
+            <marker date="1512632664425" expanded="true" signature="4595:4644" ph="                    &lt;header class=&quot;entry-header... %}" />
+            <marker date="1512632664425" expanded="true" signature="4649:4697" ph="                        &lt;h1 class=&quot;entry-title... %}" />
+            <marker date="1512632664425" expanded="true" signature="4702:4777" ph="                            &lt;a href=&quot;../single.html&quot;&gt;Django 博客开发入门教程：前言&lt;/... %}" />
+            <marker date="1512632664425" expanded="true" signature="4782:4811" ph="                        &lt;/h... %}" />
+            <marker date="1512632664425" expanded="true" signature="4816:4864" ph="                        &lt;div class=&quot;entry-meta... %}" />
+            <marker date="1512632664425" expanded="true" signature="4869:4959" ph="                            &lt;span class=&quot;post-category&quot;&gt;&lt;a href=&quot;##&quot;&gt;Django 博客教程&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="4964:5052" ph="                            &lt;span class=&quot;post-date&quot;&gt;&lt;a href=&quot;##&quot;&gt;&lt;time class=&quot;entry-dat... %}" />
+            <marker date="1512632664425" expanded="true" signature="5057:5192" ph="                                                                      datetime=&quot;2012-11-09T23:15:57+00:00&quot;&gt;2017年... %}" />
+            <marker date="1512632664425" expanded="true" signature="5197:5278" ph="                            &lt;span class=&quot;post-author&quot;&gt;&lt;a href=&quot;##&quot;&gt;追梦人物&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="5283:5366" ph="                            &lt;span class=&quot;comments-link&quot;&gt;&lt;a href=&quot;##&quot;&gt;4 评论&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="5371:5454" ph="                            &lt;span class=&quot;views-count&quot;&gt;&lt;a href=&quot;##&quot;&gt;588 阅读&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="5459:5489" ph="                        &lt;/di... %}" />
+            <marker date="1512632664425" expanded="true" signature="5494:5523" ph="                    &lt;/heade... %}" />
+            <marker date="1512632664425" expanded="true" signature="5528:5584" ph="                    &lt;div class=&quot;entry-content clearfix... %}" />
+            <marker date="1512632664425" expanded="true" signature="5589:5702" ph="                        &lt;p&gt;免费、中文、零基础，完整的项目，基于最新版 Django 1.10 和 Python 3.5。带你从零开始一步步开发属于自己的博客网站，帮助你以最快的速度掌握 Djang... %}" />
+            <marker date="1512632664425" expanded="true" signature="5707:5747" ph="                            开发的技巧...&lt;/... %}" />
+            <marker date="1512632664425" expanded="true" signature="5752:5812" ph="                        &lt;div class=&quot;read-more cl-effect-14... %}" />
+            <marker date="1512632664425" expanded="true" signature="5817:5915" ph="                            &lt;a href=&quot;##&quot; class=&quot;more-link&quot;&gt;继续阅读 &lt;span class=&quot;meta-nav&quot;&gt;→&lt;/span&gt;&lt;/... %}" />
+            <marker date="1512632664425" expanded="true" signature="5920:5950" ph="                        &lt;/di... %}" />
+            <marker date="1512632664425" expanded="true" signature="5955:5981" ph="                    &lt;/di... %}" />
+            <marker date="1512632664425" expanded="true" signature="5986:6012" ph="                &lt;/articl... %}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="44" column="64" lean-forward="false" selection-start-line="44" selection-start-column="64" selection-end-line="44" selection-end-column="64" />
+          <folding>
+            <marker date="1512633789906" expanded="true" signature="719:777" ph="{% block head ... %}" />
+            <marker date="1512633789906" expanded="true" signature="746:756" ph=" 头部不一样的部分 ... %}" />
+            <marker date="1512633789906" expanded="true" signature="2786:2825" ph="{% block content ... %}" />
+            <marker date="1512633789906" expanded="true" signature="3322:3359" ph="&lt;div class=&quot;overlay overlay-hugeinc... %}" />
+            <marker date="1512633789906" expanded="true" signature="3364:3462" ph="    &lt;button type=&quot;button&quot; class=&quot;overlay-close&quot;&gt;&lt;span class=&quot;ion-ios-close-empty&quot;&gt;&lt;/span&gt;&lt;/butto... %}" />
+            <marker date="1512633789906" expanded="true" signature="3467:3476" ph="..." />
+            <marker date="1512633789906" expanded="true" signature="3481:3493" ph="        &lt;u... %}" />
+            <marker date="1512633789906" expanded="true" signature="3498:3547" ph="            &lt;li&gt;&lt;a href=&quot;/home/index&quot;&gt;首页&lt;/a&gt;&lt;/l... %}" />
+            <marker date="1512633789906" expanded="true" signature="3552:3608" ph="            &lt;li&gt;&lt;a href=&quot;../full-width.html&quot;&gt;博客&lt;/a&gt;&lt;/l... %}" />
+            <marker date="1512633789906" expanded="true" signature="3613:3664" ph="            &lt;li&gt;&lt;a href=&quot;../about.html&quot;&gt;关于&lt;/a&gt;&lt;/l... %}" />
+            <marker date="1512633789906" expanded="true" signature="3669:3722" ph="            &lt;li&gt;&lt;a href=&quot;../contact.html&quot;&gt;联系&lt;/a&gt;&lt;/l... %}" />
+            <marker date="1512633789906" expanded="true" signature="3727:3740" ph="        &lt;/u... %}" />
+            <marker date="1512633789906" expanded="true" signature="3745:3755" ph="    &lt;/nav&gt;... %}" />
+            <marker date="1512633789906" expanded="true" signature="3760:3766" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/blogProject/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/blogProject/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding>
+            <element signature="e#645#686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/home/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="e#645#677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/home/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/blogProject/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/blogProject/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2860">
+          <caret line="130" column="23" lean-forward="false" selection-start-line="130" selection-start-column="23" selection-end-line="130" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/blogProject/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#645#686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/blogProject/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/blogProject/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="44" column="64" lean-forward="false" selection-start-line="44" selection-start-column="64" selection-end-line="44" selection-end-column="64" />
+          <folding>
+            <marker date="1512633789906" expanded="true" signature="719:777" ph="{% block head ... %}" />
+            <marker date="1512633789906" expanded="true" signature="746:756" ph=" 头部不一样的部分 ... %}" />
+            <marker date="1512633789906" expanded="true" signature="2786:2825" ph="{% block content ... %}" />
+            <marker date="1512633789906" expanded="true" signature="3322:3359" ph="&lt;div class=&quot;overlay overlay-hugeinc... %}" />
+            <marker date="1512633789906" expanded="true" signature="3364:3462" ph="    &lt;button type=&quot;button&quot; class=&quot;overlay-close&quot;&gt;&lt;span class=&quot;ion-ios-close-empty&quot;&gt;&lt;/span&gt;&lt;/butto... %}" />
+            <marker date="1512633789906" expanded="true" signature="3467:3476" ph="..." />
+            <marker date="1512633789906" expanded="true" signature="3481:3493" ph="        &lt;u... %}" />
+            <marker date="1512633789906" expanded="true" signature="3498:3547" ph="            &lt;li&gt;&lt;a href=&quot;/home/index&quot;&gt;首页&lt;/a&gt;&lt;/l... %}" />
+            <marker date="1512633789906" expanded="true" signature="3552:3608" ph="            &lt;li&gt;&lt;a href=&quot;../full-width.html&quot;&gt;博客&lt;/a&gt;&lt;/l... %}" />
+            <marker date="1512633789906" expanded="true" signature="3613:3664" ph="            &lt;li&gt;&lt;a href=&quot;../about.html&quot;&gt;关于&lt;/a&gt;&lt;/l... %}" />
+            <marker date="1512633789906" expanded="true" signature="3669:3722" ph="            &lt;li&gt;&lt;a href=&quot;../contact.html&quot;&gt;联系&lt;/a&gt;&lt;/l... %}" />
+            <marker date="1512633789906" expanded="true" signature="3727:3740" ph="        &lt;/u... %}" />
+            <marker date="1512633789906" expanded="true" signature="3745:3755" ph="    &lt;/nav&gt;... %}" />
+            <marker date="1512633789906" expanded="true" signature="3760:3766" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/templates/home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="14" />
+          <folding>
+            <marker date="1512632664425" expanded="true" signature="27:59" ph="{% block head ... %}" />
+            <marker date="1512632664425" expanded="true" signature="62:10124" ph="{% block content ... %}" />
+            <marker date="1512632664425" expanded="true" signature="1591:1636" ph="                &lt;article class=&quot;post post-2... %}" />
+            <marker date="1512632664425" expanded="true" signature="1641:1690" ph="                    &lt;header class=&quot;entry-header... %}" />
+            <marker date="1512632664425" expanded="true" signature="1695:1743" ph="                        &lt;h1 class=&quot;entry-title... %}" />
+            <marker date="1512632664425" expanded="true" signature="1748:1823" ph="                            &lt;a href=&quot;../single.html&quot;&gt;Django 博客开发入门教程：前言&lt;/... %}" />
+            <marker date="1512632664425" expanded="true" signature="1828:1857" ph="                        &lt;/h... %}" />
+            <marker date="1512632664425" expanded="true" signature="1862:1910" ph="                        &lt;div class=&quot;entry-meta... %}" />
+            <marker date="1512632664425" expanded="true" signature="1915:2005" ph="                            &lt;span class=&quot;post-category&quot;&gt;&lt;a href=&quot;##&quot;&gt;Django 博客教程&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="2010:2098" ph="                            &lt;span class=&quot;post-date&quot;&gt;&lt;a href=&quot;##&quot;&gt;&lt;time class=&quot;entry-dat... %}" />
+            <marker date="1512632664425" expanded="true" signature="2103:2238" ph="                                                                      datetime=&quot;2012-11-09T23:15:57+00:00&quot;&gt;2017年... %}" />
+            <marker date="1512632664425" expanded="true" signature="2243:2324" ph="                            &lt;span class=&quot;post-author&quot;&gt;&lt;a href=&quot;##&quot;&gt;追梦人物&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="2329:2412" ph="                            &lt;span class=&quot;comments-link&quot;&gt;&lt;a href=&quot;##&quot;&gt;4 评论&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="2417:2500" ph="                            &lt;span class=&quot;views-count&quot;&gt;&lt;a href=&quot;##&quot;&gt;588 阅读&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="2505:2535" ph="                        &lt;/di... %}" />
+            <marker date="1512632664425" expanded="true" signature="2540:2569" ph="                    &lt;/heade... %}" />
+            <marker date="1512632664425" expanded="true" signature="2574:2630" ph="                    &lt;div class=&quot;entry-content clearfix... %}" />
+            <marker date="1512632664425" expanded="true" signature="2635:2748" ph="                        &lt;p&gt;免费、中文、零基础，完整的项目，基于最新版 Django 1.10 和 Python 3.5。带你从零开始一步步开发属于自己的博客网站，帮助你以最快的速度掌握 Djang... %}" />
+            <marker date="1512632664425" expanded="true" signature="2753:2793" ph="                            开发的技巧...&lt;/... %}" />
+            <marker date="1512632664425" expanded="true" signature="2798:2858" ph="                        &lt;div class=&quot;read-more cl-effect-14... %}" />
+            <marker date="1512632664425" expanded="true" signature="2863:2961" ph="                            &lt;a href=&quot;##&quot; class=&quot;more-link&quot;&gt;继续阅读 &lt;span class=&quot;meta-nav&quot;&gt;→&lt;/span&gt;&lt;/... %}" />
+            <marker date="1512632664425" expanded="true" signature="2966:2996" ph="                        &lt;/di... %}" />
+            <marker date="1512632664425" expanded="true" signature="3001:3027" ph="                    &lt;/di... %}" />
+            <marker date="1512632664425" expanded="true" signature="3032:3058" ph="                &lt;/articl... %}" />
+            <marker date="1512632664425" expanded="true" signature="3068:3113" ph="                &lt;article class=&quot;post post-3... %}" />
+            <marker date="1512632664425" expanded="true" signature="3118:3167" ph="                    &lt;header class=&quot;entry-header... %}" />
+            <marker date="1512632664425" expanded="true" signature="3172:3220" ph="                        &lt;h1 class=&quot;entry-title... %}" />
+            <marker date="1512632664425" expanded="true" signature="3225:3300" ph="                            &lt;a href=&quot;../single.html&quot;&gt;Django 博客开发入门教程：前言&lt;/... %}" />
+            <marker date="1512632664425" expanded="true" signature="3305:3334" ph="                        &lt;/h... %}" />
+            <marker date="1512632664425" expanded="true" signature="3339:3387" ph="                        &lt;div class=&quot;entry-meta... %}" />
+            <marker date="1512632664425" expanded="true" signature="3392:3482" ph="                            &lt;span class=&quot;post-category&quot;&gt;&lt;a href=&quot;##&quot;&gt;Django 博客教程&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="3487:3575" ph="                            &lt;span class=&quot;post-date&quot;&gt;&lt;a href=&quot;##&quot;&gt;&lt;time class=&quot;entry-dat... %}" />
+            <marker date="1512632664425" expanded="true" signature="3580:3715" ph="                                                                      datetime=&quot;2012-11-09T23:15:57+00:00&quot;&gt;2017年... %}" />
+            <marker date="1512632664425" expanded="true" signature="3720:3801" ph="                            &lt;span class=&quot;post-author&quot;&gt;&lt;a href=&quot;##&quot;&gt;追梦人物&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="3806:3889" ph="                            &lt;span class=&quot;comments-link&quot;&gt;&lt;a href=&quot;##&quot;&gt;4 评论&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="3894:3977" ph="                            &lt;span class=&quot;views-count&quot;&gt;&lt;a href=&quot;##&quot;&gt;588 阅读&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="3982:4012" ph="                        &lt;/di... %}" />
+            <marker date="1512632664425" expanded="true" signature="4017:4046" ph="                    &lt;/heade... %}" />
+            <marker date="1512632664425" expanded="true" signature="4051:4107" ph="                    &lt;div class=&quot;entry-content clearfix... %}" />
+            <marker date="1512632664425" expanded="true" signature="4112:4225" ph="                        &lt;p&gt;免费、中文、零基础，完整的项目，基于最新版 Django 1.10 和 Python 3.5。带你从零开始一步步开发属于自己的博客网站，帮助你以最快的速度掌握 Djang... %}" />
+            <marker date="1512632664425" expanded="true" signature="4230:4270" ph="                            开发的技巧...&lt;/... %}" />
+            <marker date="1512632664425" expanded="true" signature="4275:4335" ph="                        &lt;div class=&quot;read-more cl-effect-14... %}" />
+            <marker date="1512632664425" expanded="true" signature="4340:4438" ph="                            &lt;a href=&quot;##&quot; class=&quot;more-link&quot;&gt;继续阅读 &lt;span class=&quot;meta-nav&quot;&gt;→&lt;/span&gt;&lt;/... %}" />
+            <marker date="1512632664425" expanded="true" signature="4443:4473" ph="                        &lt;/di... %}" />
+            <marker date="1512632664425" expanded="true" signature="4478:4504" ph="                    &lt;/di... %}" />
+            <marker date="1512632664425" expanded="true" signature="4509:4535" ph="                &lt;/articl... %}" />
+            <marker date="1512632664425" expanded="true" signature="4545:4590" ph="                &lt;article class=&quot;post post-4... %}" />
+            <marker date="1512632664425" expanded="true" signature="4595:4644" ph="                    &lt;header class=&quot;entry-header... %}" />
+            <marker date="1512632664425" expanded="true" signature="4649:4697" ph="                        &lt;h1 class=&quot;entry-title... %}" />
+            <marker date="1512632664425" expanded="true" signature="4702:4777" ph="                            &lt;a href=&quot;../single.html&quot;&gt;Django 博客开发入门教程：前言&lt;/... %}" />
+            <marker date="1512632664425" expanded="true" signature="4782:4811" ph="                        &lt;/h... %}" />
+            <marker date="1512632664425" expanded="true" signature="4816:4864" ph="                        &lt;div class=&quot;entry-meta... %}" />
+            <marker date="1512632664425" expanded="true" signature="4869:4959" ph="                            &lt;span class=&quot;post-category&quot;&gt;&lt;a href=&quot;##&quot;&gt;Django 博客教程&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="4964:5052" ph="                            &lt;span class=&quot;post-date&quot;&gt;&lt;a href=&quot;##&quot;&gt;&lt;time class=&quot;entry-dat... %}" />
+            <marker date="1512632664425" expanded="true" signature="5057:5192" ph="                                                                      datetime=&quot;2012-11-09T23:15:57+00:00&quot;&gt;2017年... %}" />
+            <marker date="1512632664425" expanded="true" signature="5197:5278" ph="                            &lt;span class=&quot;post-author&quot;&gt;&lt;a href=&quot;##&quot;&gt;追梦人物&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="5283:5366" ph="                            &lt;span class=&quot;comments-link&quot;&gt;&lt;a href=&quot;##&quot;&gt;4 评论&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="5371:5454" ph="                            &lt;span class=&quot;views-count&quot;&gt;&lt;a href=&quot;##&quot;&gt;588 阅读&lt;/a&gt;&lt;/spa... %}" />
+            <marker date="1512632664425" expanded="true" signature="5459:5489" ph="                        &lt;/di... %}" />
+            <marker date="1512632664425" expanded="true" signature="5494:5523" ph="                    &lt;/heade... %}" />
+            <marker date="1512632664425" expanded="true" signature="5528:5584" ph="                    &lt;div class=&quot;entry-content clearfix... %}" />
+            <marker date="1512632664425" expanded="true" signature="5589:5702" ph="                        &lt;p&gt;免费、中文、零基础，完整的项目，基于最新版 Django 1.10 和 Python 3.5。带你从零开始一步步开发属于自己的博客网站，帮助你以最快的速度掌握 Djang... %}" />
+            <marker date="1512632664425" expanded="true" signature="5707:5747" ph="                            开发的技巧...&lt;/... %}" />
+            <marker date="1512632664425" expanded="true" signature="5752:5812" ph="                        &lt;div class=&quot;read-more cl-effect-14... %}" />
+            <marker date="1512632664425" expanded="true" signature="5817:5915" ph="                            &lt;a href=&quot;##&quot; class=&quot;more-link&quot;&gt;继续阅读 &lt;span class=&quot;meta-nav&quot;&gt;→&lt;/span&gt;&lt;/... %}" />
+            <marker date="1512632664425" expanded="true" signature="5920:5950" ph="                        &lt;/di... %}" />
+            <marker date="1512632664425" expanded="true" signature="5955:5981" ph="                    &lt;/di... %}" />
+            <marker date="1512632664425" expanded="true" signature="5986:6012" ph="                &lt;/articl... %}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/templates/home/full-width.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding>
+            <marker date="1512634105189" expanded="true" signature="43:75" ph="{% block head ... %}" />
+            <marker date="1512634105189" expanded="true" signature="77:5107" ph="{% block content ... %}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/home/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="e#645#677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/blogProject/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding>
+            <element signature="e#645#686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bb6448a7-582d-46db-a6a0-4327965d2f9f/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/blogProject/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1430">
+          <caret line="65" column="14" lean-forward="false" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/home/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogProject/templates/home/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
