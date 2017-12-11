@@ -1,6 +1,7 @@
 # -*-coding:utf8-*-
 from django.db import models
 
+
 # Create your models here.
 class Category(models.Model):
     """
@@ -42,4 +43,5 @@ class Article(models.Model):
     # 元类重命名
     class Meta:
         db_table = "Article"
+
 
