@@ -43,5 +43,3 @@ class Article(models.Model):
     # 元类重命名
     class Meta:
         db_table = "Article"
-
-
