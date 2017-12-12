@@ -21,6 +21,8 @@ urlpatterns = [
 
     url(r'^about/$', views.about),
 
-    url(r'^full/$', views.full),
+    url(r'^full_(\d+)/$', views.full),
     url(r'^contact/$', views.contact),
+
+    url(r'^details_(\d+)/$', views.details),
 ]

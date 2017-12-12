@@ -7,7 +7,7 @@ from home.models import Article, Category, Tag
 class ArticleAdmin(admin.ModelAdmin):
     # 页面中显示的选项
     list_display = ['id', 'title', 'excerpt', 'content', 'create_time',
-                    'modified_time', ]
+                    'modified_time',]
     # 每页显示的条数
     list_per_page = 10
 
