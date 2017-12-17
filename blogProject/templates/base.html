@@ -1,3 +1,4 @@
+{% load blog_tags %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,17 +8,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- css -->
-<!-- css -->
-<link rel="stylesheet" href="/static/css/bootstrap.min.css">
-<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-<link rel="stylesheet" href="/static/css/pace.css">
-<link rel="stylesheet" href="/static/css/custom.css">
+    <!-- css -->
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="/static/css/pace.css">
+    <link rel="stylesheet" href="/static/css/custom.css">
 
-<!-- js -->
-<script src="/static/js/jquery-2.1.3.min.js"></script>
-<script src="/static/js/bootstrap.min.js"></script>
-<script src="/static/js/pace.min.js"></script>
-<script src="/static/js/modernizr.custom.js"></script>
+    {# markdown代码高亮 #}
+    <link rel="stylesheet" href="/static/css/highlights/github.css">
+
+    <!-- js -->
+    <script src="/static/js/jquery-2.1.3.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/pace.min.js"></script>
+    <script src="/static/js/modernizr.custom.js"></script>
     {% block head %}
         {# 头部不一样的部分 #}
     {% endblock %}
@@ -25,12 +29,12 @@
 
 <body>
 
-        <div class="container">
+<div class="container">
     <header id="site-header">
         <div class="row">
             <div class="col-md-4 col-sm-5 col-xs-8">
                 <div class="logo">
-                    <h1><a href="index.html"><b>Black</b> &amp; White</a></h1>
+                    <h1><a href=""><b>Black</b> &amp; White</a></h1>
                 </div>
             </div><!-- col-md-4 -->
             <div class="col-md-8 col-sm-7 col-xs-4">
@@ -46,7 +50,7 @@
                             <li class="cl-effect-11"><a href="/" data-hover="首页">首页</a></li>
                             <li class="cl-effect-11"><a href="/full_1/" data-hover="博客">博客</a></li>
                             <li class="cl-effect-11"><a href="/about/" data-hover="关于">关于</a></li>
-                            <li class="cl-effect-11"><a href="../contact.html" data-hover="联系">联系</a></li>
+                            <li class="cl-effect-11"><a href="#" data-hover="联系">联系</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </nav>
@@ -63,9 +67,102 @@
         </div>
     </header>
 </div>
-    {% block content %}
 
-    {% endblock %}
+
+<div class="content-body">
+    <div class="container">
+        <div class="row">
+        <main class="col-md-8">
+            {% block content %}
+
+
+            {% endblock %}
+            {% block comment %}
+
+
+            {% endblock %}
+        </main>
+            {% if show_right %}
+                <aside class="col-md-4">
+{#                    {% if catalog %}#}
+{#                        <div class="widget widget-content">#}
+{#                    <h3 class="widget-title">文章目录</h3>#}
+{#                    <ul>#}
+{#                        <li>#}
+{#                            <a href="#1">大概功能</a>#}
+{#                        </li>#}
+{#                        <li>#}
+{#                            <a href="#2">具体使用</a>#}
+{#                        </li>#}
+{#                        <li>#}
+{#                            <a href="#3">注意事项</a>#}
+{#                        </li>#}
+{##}
+{#                    </ul>#}
+{#                </div>#}
+{#                    {% endif %}#}
+                    <div class="widget widget-recent-posts">
+                        <h3 class="widget-title">最新文章</h3>
+                        {% get_recent_article as recent_article_list %}
+                        <ul>
+                            {% for article in recent_article_list %}
+                                <li>
+                                    <a href="/details_{{ article.id }}/">{{ article.title }}</a>
+                                </li>
+                            {% empty %}
+                                暂无最新文章！
+                            {% endfor %}
+
+                        </ul>
+                    </div>
+                    <div class="widget widget-archives">
+                        <h3 class="widget-title">归档</h3>
+                        {% archives as date_list %}
+                        <ul>
+                            {% for date in date_list %}
+                                <li>
+                                    <a href="#">{{ date.year }} 年 {{ date.month }} 月</a>
+                                </li>
+                            {% empty %}
+                                暂无归档！
+                            {% endfor %}
+                        </ul>
+                    </div>
+
+                    <div class="widget widget-category">
+                        <h3 class="widget-title">分类</h3>
+                        {% get_categories as category_list %}
+                        <ul>
+                            {% for category in category_list %}
+                                <li>
+                                    <a href="#">{{ category.name }} <span class="post-count">()</span></a>
+                                </li>
+                            {% empty %}
+                                暂无分类！
+                            {% endfor %}
+                        </ul>
+                    </div>
+
+                    <div class="widget widget-tag-cloud">
+                        <h3 class="widget-title">标签云</h3>
+                        {% get_tags as tag_list %}
+                        <ul>
+                            {% for tag in tag_list %}
+                                <li>
+                                    <a href="#">{{ tag.name }}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    <div class="rss">
+                        <a href=""><span class="ion-social-rss-outline"></span> RSS 订阅</a>
+                    </div>
+                </aside>
+            {% endif %}
+
+        </div>
+    </div>
+</div>
 
 
 <footer id="site-footer">
@@ -82,18 +179,6 @@
 </footer>
 
 <!-- Mobile Menu -->
-{#<div class="overlay overlay-hugeinc">#}
-{#    <button type="button" class="overlay-close"><span class="ion-ios-close-empty"></span></button>#}
-{#    <nav>#}
-{#        <ul>#}
-{#            <li><a href="/home/index">首页</a></li>#}
-{#            <li><a href="../full-width.html">博客</a></li>#}
-{#            <li><a href="../about.html">关于</a></li>#}
-{#            <li><a href="../contact.html">联系</a></li>#}
-{#        </ul>#}
-{#    </nav>#}
-{#</div>#}
-
 <script src="/static/js/script.js"></script>
 
 </body>

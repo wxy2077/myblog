@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 Django settings for blogProject project.
 
@@ -35,8 +36,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'home',
+    'home',     # 主页
     'tinymce',  # 富文本编辑器
+    'django_markdown',  # markdown编辑器
+    'comments',  # 评论
 ]
 
 MIDDLEWARE = [
@@ -134,10 +137,18 @@ STATICFILES_DIRS = [
 # 文件上传配置
 MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads')
 
-
 # 富文本编辑器默认样式
 TINYMCE_DEFAULT_CONFIG = {
     'theme': 'advanced',  # 主题：默认为default。TinyMCE自带三个内置的主题，它们是simple，default和advanced。
     'width': 700,
     'height': 400,
 }
+
+# github第三方登录配置
+# 请求gihhub第三方登录url
+GITHUB_AUTHORIZE_URL = 'https://github.com/login/oauth/authorize'
+GITHUB_CLIENTID = 'client_id'
+GITHUB_CLIENTSECRET = 'client_secret'
+
+# 这里是github认证处理的url,就是自己处理登陆逻辑(被坑好好久)
+GITHUB_CALLBACK = 'http://localhost:8000/oauth/github/'

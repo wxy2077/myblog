@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """blogProject URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -13,16 +14,20 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
-from django.conf.urls import url
+from django.conf.urls import url, include
 from home import views
 
+app_name = 'home'
 urlpatterns = [
     url(r'^$', views.index),
 
     url(r'^about/$', views.about),
 
     url(r'^full_(\d+)/$', views.full),
+
     url(r'^contact/$', views.contact),
 
-    url(r'^details_(\d+)/$', views.details),
+    url(r'^details_(\d+)/$', views.details, name='details'),
+
+
 ]

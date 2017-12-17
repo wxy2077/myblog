@@ -1,7 +1,11 @@
+#!/usr/bin/python3
 # -*-coding:utf8-*-
+from django.contrib.auth.models import User
 from django.db import models
 
 # Create your models here.
+from django.urls import reverse
+from django_markdown.models import MarkdownField
 from tinymce.models import HTMLField
 
 
@@ -45,9 +49,10 @@ class Article(models.Model):
     # 文章简介   blank=True 表示可以不写 没有的话　　此字段必须要有值
     excerpt = models.CharField(max_length=200, blank=True, verbose_name='简介')
 
-    # content = models.TextField(verbose_name='内容')
+    content = models.TextField(verbose_name='内容')
     # 富文本
-    content = HTMLField(verbose_name='内容')
+    # content = HTMLField(verbose_name='内容')
+    # content = MarkdownField()
 
     create_time = models.DateTimeField(verbose_name='建立时间')
     modified_time = models.DateTimeField(verbose_name='修改时间')  # 修改时间
@@ -56,12 +61,20 @@ class Article(models.Model):
     # 多对多　文章和标签
     tags = models.ManyToManyField(Tag, blank=True, verbose_name='标签')
 
-    # on_click = models.IntegerField(default=0, verbose_name='点击量')
-    #
-    # is_delete = models.BooleanField(default=False, verbose_name='是否删除')
+    # 作者 一对多关系一篇文章只有一个作者
+    # author = models.ForeignKey(User)
+
+    on_click = models.IntegerField(default=0, verbose_name='点击量')
+
+    is_delete = models.BooleanField(default=False, verbose_name='是否删除')
 
     def __str__(self):
         return self.title
+
+    # 自定义 get_absolute_url 方法
+    # 记得从 django.urls 中导入 reverse 函数
+    def get_absolute_url(self):
+        return reverse('home:details', kwargs={'pk': self.pk})
 
     # 元类
     class Meta:

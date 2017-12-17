@@ -1,70 +1,75 @@
 {% extends 'base.html' %}
-		<!-- meta -->
+<!-- meta -->
 
 {% block head %}
-<link rel="stylesheet" href="/static/css/jquery.pagination.css" />
-<script src="/static/js/jquery.pagination.min.js"></script>
+    <link rel="stylesheet" href="/static/css/jquery.pagination.css"/>
+    <script src="/static/js/jquery.pagination.min.js"></script>
 {% endblock %}
 
 {% block content %}
-	<body>
+    <body>
 
-		<div class="content-body">
-			<div class="container">
-				<div class="row">
-					<main class="col-md-12">
+    <div class="content-body">
+        <div class="container">
+            <div class="row">
+                <main class="col-md-12">
 
+                    {% block article %}
                         {% for article in page %}
-                        <article class="post post-{{ forloop.counter }}">
-                            <header class="entry-header">
-                                <h1 class="entry-title">
-                                    <a href="../single.html">{{ article.title }}</a>
-                                </h1>
-                                <div class="entry-meta">
-                                    <span class="post-category"><a href="#">{{ article.category }}</a></span>
-                                    <span class="post-date"><a href="#"><time class="entry-date"
-                                                                              datetime="2012-11-09T23:15:57+00:00">{{ article.create_time }}</time></a></span>
-                                    <span class="post-author"><a href="#">@wgPython</a></span>
-                                    <span class="comments-link"><a href="#">4 评论</a></span>
-                                    <span class="views-count"><a href="#">588 阅读</a></span>
+                            <article class="post post-{{ forloop.counter }}">
+                                <header class="entry-header">
+                                    <h1 class="entry-title">
+                                        <a href="#">{{ article.title }}</a>
+                                    </h1>
+                                    <div class="entry-meta">
+                                        <span class="post-category"><a href="#">{{ article.category }}</a></span>
+                                        <span class="post-date"><a href="#"><time class="entry-date"
+                                                                                  datetime="2012-11-09T23:15:57+00:00">{{ article.create_time }}</time></a></span>
+                                        <span class="post-author"><a href="#">@wgPython</a></span>
+                                        <span class="comments-link"><a href="#">4 评论</a></span>
+                                        <span class="views-count"><a href="#">{{ article.on_click }} 阅读</a></span>
+                                    </div>
+                                </header>
+                                <div class="entry-content clearfix">
+                                    <p>{{ article.content | truncatewords:"10" | safe }}</p>
+                                    <div class="read-more cl-effect-14">
+                                        <a href="/details_{{ article.id }}" class="more-link">继续阅读 <span
+                                                class="meta-nav">→</span></a>
+                                    </div>
                                 </div>
-                            </header>
-                            <div class="entry-content clearfix">
-                                <p>{{ article.content | truncatewords:"10" | safe }}</p>
-                                <div class="read-more cl-effect-14">
-                                    <a href="/details_{{ article.id }}" class="more-link">继续阅读 <span class="meta-nav">→</span></a>
-                                </div>
-                            </div>
-                        </article>
+                            </article>
+                        {% empty %}
+                            <div class="no-post">暂时还没有发布的文章！</div>
                         {% endfor %}
+                    {% endblock %}
 
 
-                        <div class="box" style="margin-right: auto">
-                <div id="pagination" class="page"></div>
-                </div>
-                <script>
-                    $("#pagination").pagination({
-                    currentPage: {{ page.number }},// 当前页数
-                    totalPage: {{ page.paginator.num_pages}},// 总页数
-                    isShow: false,// 是否显示首尾页
-                    count: 5,// 显示个数
-                    homePageText: "首页",// 首页文本
-                    endPageText: "尾页",// 尾页文本
-                    prevPageText: "上一页",// 上一页文本
-                    nextPageText: "下一页",// 下一页文本
-                    callback: function (current) {
-                        // 回调,current(当前页数)
-{#                        alert(current);#}
-                        {# $("#current").text(current)　//当前页 #}
-{#                        location.href = '/product_list_{{ current_type.id }}_' + current + '/?order_by={{ order_by }}'#}
-{#                        location.href = '/full_{{ current }}'#}
-                        location.href = '/full_'+current
-                    }
-                });
-                </script>
+                    <div class="box" style="margin-right: auto">
+                        <div id="pagination" class="page"></div>
+                    </div>
+                    <script>
+                        $("#pagination").pagination({
+                            currentPage: {{ page.number }},// 当前页数
+                            totalPage: {{ page.paginator.num_pages}},// 总页数
+                            isShow: false,// 是否显示首尾页
+                            count: 5,// 显示个数
+                            homePageText: "首页",// 首页文本
+                            endPageText: "尾页",// 尾页文本
+                            prevPageText: "上一页",// 上一页文本
+                            nextPageText: "下一页",// 下一页文本
+                            callback: function (current) {
+                                // 回调,current(当前页数)
+                                {#                        alert(current);#}
+                                {# $("#current").text(current)　//当前页 #}
+                                {#                        location.href = '/product_list_{{ current_type.id }}_' + current + '/?order_by={{ order_by }}'#}
+                                {#                        location.href = '/full_{{ current }}'#}
+                                location.href = '/full_' + current
+                            }
+                        });
+                    </script>
 
-					</main>
-				</div>
-			</div>
-		</div>
-        {% endblock %}
+                </main>
+            </div>
+        </div>
+    </div>
+{% endblock %}

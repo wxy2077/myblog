@@ -15,11 +15,9 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
 from django.conf.urls import url, include
-from django.contrib import admin
+from comments import views
 
+app_name = 'comments'
 urlpatterns = [
-    url(r'^admin/', include(admin.site.urls)),
-    url(r'^', include('home.urls')),
-    # url(r'^markdown/', include('django_markdown.urls')),
-    url(r'', include('comments.urls')),
+    url(r'^comment/post/(?P<article_id>[0-9]+)/$', views.article_comment, name='article_comment'),
 ]
