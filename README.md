@@ -1,3 +1,3 @@
 # myblog
-Personal website 我的个人网站
-#### Personal website based on Django development 基于Djngo开发的个人网站
+我的第一个python web 网站
+#### 基于Djngo开发的个人网站
